@@ -1,0 +1,60 @@
+.navbar {
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .menuItem {
+    display: inline;
+  }
+  
+  .menuLink {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  .menuLink:hover {
+    background-color: #555;
+    border-radius: 4px;
+  }
+  
+  .menuToggle {
+    display: none;
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    .menu {
+      display: none;
+      flex-direction: column;
+      gap: 10px;
+      width: 100%;
+    }
+  
+    .menu.mobileMenuOpen {
+      display: flex;
+    }
+  
+    .menuItem {
+      display: block;
+      text-align: center;
+    }
+  
+    .menuToggle {
+      display: block;
+    }
+  }
+  

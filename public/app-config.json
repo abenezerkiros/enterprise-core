@@ -1,0 +1,21 @@
+{
+    "routes": [
+      {
+        "path": "/",
+        "component": "Home"
+      },
+      {
+        "path": "/app1",
+        "component": "App1"
+      },
+      {
+        "path": "/app2",
+        "component": "App2"
+      },
+      {
+        "path": "/flow-diagram",
+        "component": "FlowDiagram"
+      }
+    ]
+  }
+  

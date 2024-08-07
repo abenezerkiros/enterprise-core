@@ -1,0 +1,21 @@
+{
+    "menu": [
+      {
+        "label": "Home",
+        "path": "/"
+      },
+      {
+        "label": "Application 1",
+        "path": "/app1"
+      },
+      {
+        "label": "Application 2",
+        "path": "/app2"
+      },
+      {
+        "label": "Flow Diagram",
+        "path": "/flow-diagram"
+      }
+    ]
+  }
+  

@@ -1,0 +1,29 @@
+.customNode {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #9ca8b3;
+    color: white;
+    text-align: center;
+    width: 150px;
+  }
+  
+  .nodeContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .nodeButton {
+    margin-top: 10px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #4caf50;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .nodeButton:hover {
+    background-color: #45a049;
+  }
+  
